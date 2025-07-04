@@ -1,0 +1,32 @@
+:root {
+  /* font-family: "Nanum Pen Script", cursive; */
+  --font-family: "Comic Neue", cursive;
+  --line-height: 1.5;
+  --font-weight: 400;
+  --base-font-size: 10px;
+
+  --primary-color-white: rgba(255, 255, 255, 1);
+  --primary-color-black: rgba(10, 10, 10, 1);
+
+  --color-scheme: light dark;
+  --color: rgba(255, 255, 255, 0.87);
+  --background-color: #0a0a0a;
+
+  --font-synthesis: none;
+  --text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root:white {
+  background-color: #ffffff;
+}
+
+body {
+  max-width: 1728px;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: var(--base-font-size);
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+}

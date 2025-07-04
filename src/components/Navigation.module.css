@@ -1,0 +1,37 @@
+.navigationContainer {
+  /* background-color: #242424; */
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 4.4em;
+
+  background: var(--primary-color-black);
+}
+
+.navigationIcons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.enrollmentText {
+  color: var(--primary-color-white);
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.navigationCtas {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.navigationBtn {
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: var(--primary-color-black);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 1.4em;
+}
