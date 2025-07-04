@@ -1,0 +1,80 @@
+.heroContainer {
+  margin-block: 9.7em;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  gap: 12em;
+}
+
+.heroSubText {
+  font-size: 12em;
+  text-transform: uppercase;
+  font-weight: 800;
+  width: 55%;
+}
+
+.heroSubTextAlt {
+  color: var(--text-color-alt);
+  font-family: var(--secondary-font-family);
+  font-size: 2.4em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.72px;
+  height: 54px;
+  width: 80px;
+}
+
+.heroHeading {
+  color: var(--text-color-white);
+  font-family: "TT Firs Neue Trial Var Roman", sans-serif;
+  font-size: 17em;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150px;
+  letter-spacing: -3.12px;
+  text-transform: uppercase;
+  width: 100%;
+  margin-block: 21px;
+}
+
+.heroFooterLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 2.4em;
+}
+
+.heroFooterText {
+  color: var(--text-color-white);
+  font-family: "TT Firs Neue Trial Var Roman";
+  font-size: 1.4em;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
+.heroFooterTextSpan {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.heroFooterLink {
+  font-size: 1.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  color: var(--text-color-alt);
+
+  text-decoration: none;
+}
+
+.testimonialContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.testmonialImage:not(:first-child) {
+  margin-inline-start: -15px;
+}
