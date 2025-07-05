@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
+/* src/assets/fonts.css */
+@font-face {
+  font-family: "TT Firs Neue Trial Var Roman";
+  src: url("./assets/fonts/TT\ Firs\ Neue\ Trial\ Var\ Roman.ttf")
+    format("truetype");
+}
+
 :root {
   /* font-family: "Nanum Pen Script", cursive; */
-  --font-family: "TT Firs Neue Trial Var Roman", sans-serif;
+  --font-neue: "TT Firs Neue Trial Var Roman", sans-serif;
   --secondary-font-family: "Nanum Pen Script", cursive;
   --line-height: 1.5;
   --font-weight: 400;

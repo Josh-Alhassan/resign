@@ -28,16 +28,9 @@
 }
 
 .heroHeading {
-  color: var(--text-color-white);
-  font-family: "TT Firs Neue Trial Var Roman", sans-serif;
-  font-size: 17em;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 150px;
-  letter-spacing: -3.12px;
-  text-transform: uppercase;
   width: 100%;
-  margin-block: 21px;
+  margin-block-start: 0;
+  margin-block-end: 15px;
 }
 
 .heroFooterLabel {
@@ -64,6 +57,7 @@
   font-size: 1.4em;
   font-weight: 600;
   text-transform: uppercase;
+  font-family: var(--font-neue);
 
   color: var(--text-color-alt);
 
@@ -77,4 +71,10 @@
 
 .testmonialImage:not(:first-child) {
   margin-inline-start: -15px;
+}
+
+.heroPartners {
+  display: flex;
+  gap: 2em;
+  margin-top: 6.4em;
 }

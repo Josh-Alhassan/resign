@@ -1,4 +1,5 @@
 import React from "react";
+import mainHeading from "../assets/create-with-conviction.svg";
 import styles from "./Hero.module.css";
 
 function Hero() {
@@ -75,7 +76,7 @@ function Hero() {
         <p className={styles.heroSubTextAlt}>Join Now enrolment is closing</p>
       </div>
 
-      <h1 className={styles.heroHeading}>Create with Conviction</h1>
+      <img src={mainHeading} className={styles.heroHeading} />
 
       <div className={styles.heroFooter}>
         <div className={styles.heroFooterLabel}>
@@ -112,6 +113,46 @@ function Hero() {
               </svg>
             </div>
           ))}
+        </div>
+      </div>
+
+      <div className={styles.heroPartners}>
+        <div className={styles.heroPartnersApple}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+          >
+            <g opacity="0.5">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M25.8752 8.25863C22.7515 8.25863 21.0931 9.82076 18.639 9.78891C16.1843 9.82076 14.5264 8.25863 11.4023 8.25863C8.91577 8.25863 5.75923 9.78891 4.32486 12.0211C1.67907 16.1026 1.93388 20.5351 3.04974 25.1258C4.26115 30.0054 8.53299 36 11.9124 36C14.6856 36 15.9294 34.5006 18.639 34.5006C21.3479 34.5006 22.5594 36 25.3018 36C28.4255 36 32.1553 30.8656 33.75 26.3056C30.689 25.094 28.6165 22.0653 28.6165 18.8445C28.6165 15.6561 30.243 13.201 32.7296 11.7982C31.1997 9.7252 28.2662 8.25863 25.8752 8.25863ZM25.046 0C20.5517 0.478406 17.2046 4.24076 17.4913 8.51351C21.9861 8.06702 25.3018 4.27268 25.046 0Z"
+                fill="#C6C7C9"
+              />
+            </g>
+          </svg>
+        </div>
+
+        <div className={styles.heroPartnersSports}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="63"
+            height="36"
+            viewBox="0 0 63 36"
+            fill="none"
+          >
+            <path
+              d="M37.1749 1.2403H14.474L10.6903 8.6896H33.3912L37.1749 1.2403Z"
+              fill="#686869"
+            />
+            <path
+              d="M42.8511 1.2403L27.3472 27.3116H13.4256L17.7507 19.8623H25.8238L29.6088 12.413H6.90539L3.12293 19.8623H9.03656L1.23047 34.7597H31.8691L42.8535 14.9147L45.942 22.0105H43.6398L42.0402 27.3178H49.0293L52.8129 34.7659H61.7695L42.8511 1.2403Z"
+              fill="#686869"
+            />
+          </svg>
         </div>
       </div>
     </section>
