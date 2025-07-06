@@ -1,0 +1,26 @@
+.aboutVideoContainer {
+  width: 100%;
+  height: 701px;
+}
+
+.aboutVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.aboutContent {
+  margin-block-start: 47px;
+  margin-block-end: 73px;
+  width: 47%;
+
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+.aboutMetricsSection {
+  background-color: orange;
+  width: 100%;
+  height: 700px;
+}

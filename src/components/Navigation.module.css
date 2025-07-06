@@ -15,6 +15,11 @@
   gap: 15px;
 }
 
+.navigationIcon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
 .enrollmentText {
   color: var(--primary-color-white);
   font-size: 1.4em;

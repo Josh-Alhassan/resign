@@ -9,6 +9,7 @@
   font-family: "TT Firs Neue Trial Var Roman";
   src: url("./assets/fonts/TT\ Firs\ Neue\ Trial\ Var\ Roman.ttf")
     format("truetype");
+  font-weight: 400;
 }
 
 :root {
@@ -45,6 +46,10 @@ body {
   min-height: 100vh;
   font-size: var(--base-font-size);
   background-color: var(--background-color);
-  font-family: var(--font-family);
+  font-family: var(--font-neue);
   color: var(--primary-color-white);
+}
+
+section {
+  margin-block: 7.3em;
 }

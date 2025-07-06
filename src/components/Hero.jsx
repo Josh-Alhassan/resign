@@ -5,7 +5,7 @@ import styles from "./Hero.module.css";
 function Hero() {
   const testimonialCircles = Array.from({ length: 24 });
   return (
-    <section className={styles.heroContainer}>
+    <header className={styles.heroContainer}>
       <div className={styles.heroContent}>
         <div className={styles.heroSubText}>
           <svg
@@ -155,7 +155,7 @@ function Hero() {
           </svg>
         </div>
       </div>
-    </section>
+    </header>
   );
 }
 

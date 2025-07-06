@@ -7,18 +7,30 @@ import lightMode from "../assets/light-mode.svg";
 
 function Navigation() {
   return (
-    <div className={styles.navigationContainer}>
+    <nav className={styles.navigationContainer}>
       <div className={styles.navigationIcons}>
-        <img src={burgerMenu} alt="Burger Icon" />
-        <img src={energyIcon} alt="Energy Icon" />
-        <img src={lightMode} alt="Light mode Icon" />
+        <img
+          className={styles.navigationIcon}
+          src={burgerMenu}
+          alt="Burger Icon"
+        />
+        <img
+          className={styles.navigationIcon}
+          src={energyIcon}
+          alt="Energy Icon"
+        />
+        <img
+          className={styles.navigationIcon}
+          src={lightMode}
+          alt="Light mode Icon"
+        />
       </div>
 
       <div className={styles.navigationCtas}>
         <span className={styles.enrollmentText}>Enrollment Closing Soon</span>
         <button className={styles.navigationBtn}>Join Now</button>
       </div>
-    </div>
+    </nav>
   );
 }
 
