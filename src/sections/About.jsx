@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
 import creativeDesign from "../assets/video/coverr-video.mp4";
+import MetricsSection from "../components/MetricSection";
 const About = () => {
   return (
     <section>
@@ -24,7 +25,7 @@ const About = () => {
         appealing but also functional and effective.
       </article>
 
-      <div className={styles.aboutMetricsSection}></div>
+      <MetricsSection />
     </section>
   );
 };

@@ -25,6 +25,7 @@
 
   --text-color-white: #ece9e3;
   --text-color-alt: rgba(255, 51, 102, 1);
+  --text-stroke-color: #fafafa;
 
   --color-scheme: light dark;
   --color: rgba(255, 255, 255, 0.87);
